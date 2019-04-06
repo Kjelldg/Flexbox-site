@@ -125,3 +125,46 @@ ul.main-nav {
 .testimonials-wrapper .image-testimonial {
     padding: 20px;
 }
+
+.testimonials-wrapper .image-testimonial img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.testimonials-wrapper .text-testimonial,
+.testimonials-wrapper .image-testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.testimonials-wrapper .name {
+    margin-top: 3px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+
+/* EVENTS */
+
+#events {
+    padding: 60px 0 60px;
+    background: #0d90ba;
+    color: white;
+}
+
+#events h2:after {
+    border-bottom: 4px solid #fff;
+}
+
+/* CONTACT */ 
+#contact {
+    border-radius: 0;
+}
+#contact form .custom-button {
+    background: #0d98ba;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10%;
+    color: #fff;
+}
