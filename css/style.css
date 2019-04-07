@@ -168,3 +168,32 @@ ul.main-nav {
     border-radius: 10%;
     color: #fff;
 }
+
+/* FOOTER */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 40px 0 0;
+}
+
+footer .footer-wrapper .col {
+    text-align: left;
+}
+
+footer .social-wrapper a {
+    color: #fff;
+    padding: 6px; 
+}
+
+footer .social-wrapper a:hover {
+    color: #0d90ba;
+}
+.sub-footer {
+    background: rgb(24, 24, 24);
+    padding: 5px 0 0;
+}
+
+.sub-footer p {
+    color: #fff;
+    padding-left: 126px;
+}
